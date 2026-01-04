@@ -120,6 +120,10 @@ Verified captured events using:
 
 ```bash
 sudo tail -f /var/ossec/logs/ossec.log
+
+<img width="940" height="591" alt="image" src="https://github.com/user-attachments/assets/d87786ce-1af4-4908-8571-bda727fd5822" />
+
+
 ```
 
 ---
