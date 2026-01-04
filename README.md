@@ -121,7 +121,28 @@ Verified captured events using:
 ```bash
 sudo tail -f /var/ossec/logs/ossec.log
 
-<img width="940" height="591" alt="image" src="https://github.com/user-attachments/assets/d87786ce-1af4-4908-8571-bda727fd5822" />
+example logs
+
+<pre>2026/01/04 13:06:47 wazuh-logcollector: INFO: (1950): Analyzing file: &apos;/var/log/dpkg.log&apos;.
+2026/01/04 13:06:47 wazuh-logcollector: INFO: (1950): Analyzing file: &apos;/var/log/auth.log&apos;.
+2026/01/04 13:06:47 wazuh-logcollector: INFO: (1950): Analyzing file: &apos;/var/log/syslog&apos;.
+2026/01/04 13:06:47 wazuh-logcollector: INFO: Started (pid: 19410).
+2026/01/04 13:06:47 wazuh-modulesd: INFO: Started (pid: 19424).
+2026/01/04 13:06:47 wazuh-modulesd:agent-upgrade: INFO: (8153): Module Agent Upgrade started.
+2026/01/04 13:06:47 wazuh-modulesd:ciscat: INFO: Module disabled. Exiting...
+2026/01/04 13:06:47 wazuh-modulesd:osquery: INFO: Module disabled. Exiting...
+2026/01/04 13:06:47 sca: INFO: Module started.
+2026/01/04 13:06:47 wazuh-modulesd:control: INFO: Starting control thread.
+2026/01/04 13:06:47 sca: INFO: Loaded policy &apos;/var/ossec/ruleset/sca/cis_ubuntu22-04.yml&apos;
+2026/01/04 13:06:47 sca: INFO: Starting Security Configuration Assessment scan.
+2026/01/04 13:06:47 wazuh-modulesd:syscollector: INFO: Module started.
+2026/01/04 13:06:47 wazuh-modulesd:syscollector: INFO: Starting evaluation.
+2026/01/04 13:06:47 sca: INFO: Starting evaluation of policy: &apos;/var/ossec/ruleset/sca/cis_ubuntu22-04.yml&apos;
+2026/01/04 13:06:49 wazuh-modulesd:syscollector: INFO: Evaluation finished.
+2026/01/04 13:06:49 wazuh-logcollector: INFO: (9203): Monitoring journal entries.
+2026/01/04 13:06:51 wazuh-agentd: INFO: Requesting a key from server: 127.0.0.1
+2026/01/04 13:06:51 wazuh-agentd: ERROR: (1208): Unable to connect to enrollment service at &apos;[127.0.0.1]:1515&apos;
+</pre>
 
 
 ```
